@@ -1,0 +1,17 @@
+{
+    "name": "raymondoor/webapp",
+    "type": "project",
+    "description": "Simple web application frame.",
+    "license": "proprietary",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "raymondoor\\": "app/api/config/"
+        },
+        "files": [
+            "app/api/config/config.php"
+        ]
+    }
+}
