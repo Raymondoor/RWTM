@@ -4,8 +4,8 @@ use raymondoor\rqst_validate;
 use function raymondoor\return_header;
 session_start();
 $request = new rqst_validate();
-if($request->admin_gate() === false){
-    return_header('/admin/login.php?error=Please_Login_First');
+if(!$request->admin_gate()){
+    return_header('/?error=Please_Login_First');
 }
 //Until here.
 // Page specific data here.
@@ -22,6 +22,10 @@ include_once(TEMPLATE_DIR.'/html-header.php');
         <pre>
 <?php print_r($_SESSION); ?>
         </pre>
+        <pre>
+<?php print_r($_COOKIE); ?>
+        </pre>
+        <a href="./logout.php">logout</a>
         <a href="./phpinfo.php">phpinfo()</a>
     </div>
 </main>
