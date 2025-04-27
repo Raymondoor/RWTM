@@ -1,6 +1,5 @@
 <style>
     #maincontent{
-        width: 80%;
         margin: 0 auto;
         #welcome{
             display: inline-block;
@@ -36,8 +35,24 @@
             border-style: solid;
         }
     }
-    pre{
-        text-wrap: wrap;
-        word-wrap: break-word;
+    table{
+        border-collapse: collapse;
+        border: 2px solid #000;
+        margin: 1rem auto;
+        th{
+            padding: 1rem 0;
+            text-align: center;
+            border: 1px solid black;
+            width: 120px;
+        }
+        td{
+            padding: 1rem 0.5rem;
+            border: 1px solid black;
+            overflow-x: scroll;
+            max-width: 80px;
+            font-size: 0.85rem;
+            word-break: keep-all;
+            scrollbar-width: none;
+        }
     }
 </style>

@@ -2,8 +2,9 @@
 require_once(__DIR__.'../../../../vendor/autoload.php');
 ?>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
 :root{
-    --BaseFont: 'Arial';
+    --BaseFont: 'Cal Sans', Arial;
     --textColour: hsl(0, 0%, 100%);
     --hoverColour: hsl(0, 0%, 75%);
 }

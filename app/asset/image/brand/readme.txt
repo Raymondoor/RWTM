@@ -1,1 +1,0 @@
-Here sits images like company logo.

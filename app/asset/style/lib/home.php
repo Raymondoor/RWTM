@@ -6,7 +6,7 @@ body{
     height: 100vh;
     align-content: center;
     background: rgba(5,120,152,1);
-    background: linear-gradient(135deg, rgb(60, 3, 71) 0%, rgba(5,120,152,1) 49%, rgb(0, 242, 149) 100%);
+    background: linear-gradient(135deg, rgb(7, 141, 178) 0%, rgba(5,120,152,1) 50%, rgb(6, 107, 135) 100%);
 }
 h1{
     width: fit-content;
